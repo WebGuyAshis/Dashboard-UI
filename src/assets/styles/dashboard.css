@@ -2,4 +2,6 @@
     background-color: #EEF0F8;
     width: 100vw;
     display: flex;
+    height: 100vh;
+    overflow: hidden;
 }
