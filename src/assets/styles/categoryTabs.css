@@ -1,0 +1,34 @@
+.category-tabs{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.category-tabs .category-tabs-blocks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 20px;
+    border-radius: 10px;
+    max-width: 120px;
+    background-color: white;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.category-tabs-blocks:hover{
+    background-color: #f6fffa;
+}
+
+.category-tabs-blocks img{
+    height: 60px;
+}
+
+
+.active-cat-tab{
+    background-color: #50CD89 !important;
+    color: white !important;
+}
