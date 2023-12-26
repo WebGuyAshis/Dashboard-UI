@@ -15,11 +15,13 @@ const Header = () => {
 
             {/* for Right */}
             <div className="header-right">
+                <div className="user-details">
                 <div className="user-logo">
                     <span>N</span>
                 </div>
 
                 <span className='logged-in-user'>Nick Thomas</span>
+                </div>
 
                 <div className="icons">
                     <img src={searchImg} alt="search" />

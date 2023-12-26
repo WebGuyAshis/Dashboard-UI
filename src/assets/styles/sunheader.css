@@ -1,0 +1,80 @@
+.sunheader-container{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+
+/* For left part */
+.sunheader-left{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.sunheader-left .separator{
+    min-width: 1px;
+    background-color: rgb(210, 210, 210);
+    height: 30px;
+}
+
+.sunheader-left .add-new-btn{
+    background-color: #FFF4DE;
+    color: #FFA800 ;
+    padding: 10px 12px;
+    border-radius: 5px;
+}
+
+
+/* Sunheader -rigth part */
+
+.sunheader-right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.sunheader-right .timeline{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-right: 20px;
+}
+
+.sunheader-right .timeline p{
+    color: #959CB6;
+}
+
+.sunheader-right .actions{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 150px;
+    justify-content: flex-end;
+}
+
+.sunheader-right .actions p{
+    background-color: #F3F6F9;
+    color: #959CB6;
+    padding: 10px 12px;
+    border-radius: 6px ;
+}
+
+.sunheader-right .actions img{
+    height: 35px;
+}
+
+
+
+/* For active timelines */
+
+.active-timeline{
+    background-color: #F3F6F9;
+    color: #6993FF;
+    border-radius: 6px;
+    padding: 10px 12px;
+}
