@@ -1,5 +1,6 @@
 import '../../assets/styles/dasharea.css';
 import Header from './Header';
+import CategoryBlocks from './MainPageComp/CategoryBlocks';
 import CategoryTabs from './MainPageComp/CategoryTabs';
 import Sunheader from './Sunheader';
 
@@ -40,11 +41,7 @@ const DashArea = () =>{
                         </div>
                     </div>
                 </div>
-
-                <div className="category-blocks">
-                    {/* Category blocks */}
-                    category blocks
-                </div>
+                <CategoryBlocks/>
             </div>
         </div>
     )

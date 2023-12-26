@@ -1,0 +1,26 @@
+.category-blocks{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 30%;
+}
+
+.category-blocks-items{
+    background-color: white;
+    padding: 20px;
+    min-width: 40%;
+    flex: 1;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.category-blocks-items:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.category-blocks-items img{
+    width: 40px;
+}
