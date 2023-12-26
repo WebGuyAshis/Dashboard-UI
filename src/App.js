@@ -1,9 +1,10 @@
 import './App.css';
+import Dashboard from './components/Dashboard/Dashboard.jsx';
 
 function App() {
   return (
     <div className="App">
-        Dashboard Design!
+        <Dashboard/>
     </div>
   );
 }

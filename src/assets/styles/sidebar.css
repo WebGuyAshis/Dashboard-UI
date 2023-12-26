@@ -1,0 +1,89 @@
+.sidebar-container{
+    background-color: #1E1E2D;
+    color: white;
+    /* width: 220px; */
+    height: 100vh;
+}
+
+.sidebar-logo{
+    background-color: #1B1B28;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.close-sidebar{
+    color: #6993FF;
+}
+/* Diebar Nav Links */
+.sidebar-nav{
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.custom-header{
+    font-size: 12px;
+    color: #4A4B68;
+    padding: 0 20px;
+    margin: 15px 0;
+}
+.sidebar-custom-btns p{
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    font-size: 14px;
+    color: #888C9F;
+    transition: all 0.3s;   
+    cursor: pointer;
+}
+.sidebar-custom-btns p:hover{
+ color: white;
+}
+
+.sidebar-custom-btns .btn-data{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Dropdown lIst */
+.dropdown-list li{
+    list-style: none;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #888C9F;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.dropdown-list li:hover{
+    color: white;
+}
+
+.active-sidenav{
+    background-color: #1B1B28;
+    color: white;
+    font-size: 16px;
+}
+
+.active-sub-sidenav{
+    color: white !important;
+}
+
+.active-sidenav-icon{
+    transform: rotate(90deg) !important;
+}
