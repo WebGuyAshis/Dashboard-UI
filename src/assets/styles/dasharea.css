@@ -92,7 +92,9 @@
   gap: 20px;
 }
 
-/* .sales-newArr-section{
-    width: 100%;
-    background-color: aquamarine;
-} */
+.stats-widgets-section{
+  display: flex;
+  gap: 20px;
+}
+
+

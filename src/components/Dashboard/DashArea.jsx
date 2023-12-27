@@ -5,6 +5,8 @@ import CategoryTabs from './CategoryTabs';
 import Sales from './Sales';
 import Sunheader from './Sunheader';
 import NewArrival from './NewArrival';
+import Stats from './Stats';
+import Widgets from './Widgets';
 
 
 const DashArea = () => {
@@ -51,7 +53,8 @@ const DashArea = () => {
 
 
                 <div className="stats-widgets-section">
-
+                    <Stats/>
+                    <Widgets/>
                 </div>
 
             </div>

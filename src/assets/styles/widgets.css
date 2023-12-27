@@ -1,0 +1,45 @@
+.widgets-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 30%;
+}
+
+.widgets-item {
+  min-width: 40%;
+  flex: 1;
+  /* max-width: 100px; */
+  min-height: 100px;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.widgets-item img {
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+}
+.weeklySales {
+  background-color: #fff4de;
+  color: #634100 !important;
+}
+
+.new-users {
+  background-color: #eee5ff;
+  color: #8a50fc !important;
+}
+
+.item-orders {
+    color: #F65464 !important;
+    background-color: #FFE2E6;
+}
+
+.bug-reports {
+    background-color: #C9F7F5;
+    color: #74BBB7 !important;
+}
