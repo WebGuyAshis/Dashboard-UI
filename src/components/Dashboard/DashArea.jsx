@@ -1,9 +1,10 @@
 import '../../assets/styles/dasharea.css';
 import Header from './Header';
-import CategoryBlocks from './MainPageComp/CategoryBlocks';
-import CategoryTabs from './MainPageComp/CategoryTabs';
-import Sales from './MainPageComp/Sales';
+import CategoryBlocks from './CategoryBlocks';
+import CategoryTabs from './CategoryTabs';
+import Sales from './Sales';
 import Sunheader from './Sunheader';
+import NewArrival from './NewArrival';
 
 
 const DashArea = () => {
@@ -19,10 +20,6 @@ const DashArea = () => {
                 <div className="category-section">
                     {/* cat tabs */}
                     <div className="catTabs-recent">
-                        {/* <div className="category-tabs">
-                        
-                        Tabs
-                    </div> */}
 
                         <CategoryTabs />
 
@@ -49,6 +46,7 @@ const DashArea = () => {
 
                 <div className="sales-newArr-section">
                     <Sales/>
+                    <NewArrival/>
                 </div>
 
 

@@ -1,11 +1,11 @@
-import '../../../assets/styles/categoryBlocks.css'
+import '../../assets/styles/categoryBlocks.css'
 
-import giftImg from '../../../assets/images/icons/gift.png'
-import spinnerImg from '../../../assets/images/icons/spinner.png'
-import fingerImg from '../../../assets/images/icons/fingerprint.png'
-import patternImg from '../../../assets/images/icons/pattern.png'
-import cakeImg from '../../../assets/images/icons/cake.png'
-import rocketImg from '../../../assets/images/icons/rocket.png'
+import giftImg from '../../assets/images/icons/gift.png'
+import spinnerImg from '../../assets/images/icons/spinner.png'
+import fingerImg from '../../assets/images/icons/fingerprint.png'
+import patternImg from '../../assets/images/icons/pattern.png'
+import cakeImg from '../../assets/images/icons/cake.png'
+import rocketImg from '../../assets/images/icons/rocket.png'
 
 
 

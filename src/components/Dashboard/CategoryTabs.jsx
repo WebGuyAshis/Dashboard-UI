@@ -1,10 +1,10 @@
-import '../../../assets/styles/categoryTabs.css'
+import '../../assets/styles/categoryTabs.css'
 
-import saasImg from '../../../assets/images/icons/Library.png'
-import mainImg from '../../../assets/images/icons/Layoutgrey.png'
-import videoImg from '../../../assets/images/icons/Movie.png'
-import salesImg from '../../../assets/images/icons/Equalizergrey.png'
-import securityIg from '../../../assets/images/icons/Shield-check.png'
+import saasImg from '../../assets/images/icons/Library.png'
+import mainImg from '../../assets/images/icons/Layoutgrey.png'
+import videoImg from '../../assets/images/icons/Movie.png'
+import salesImg from '../../assets/images/icons/Equalizergrey.png'
+import securityIg from '../../assets/images/icons/Shield-check.png'
 
 
 const CategoryTabs = () =>{
