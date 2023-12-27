@@ -1,0 +1,79 @@
+.recent-activities {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    flex: 1;
+  }
+
+.recent-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.recent-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+    margin-top: 20px;
+}
+
+.recent-list-item{
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    min-height: 25px;
+}
+
+.recent-list-item .timer{
+    min-width: 35px;
+    color: black;
+    font-weight: 600;
+}
+
+.msg-track{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1px;
+    height: 100%;
+}
+
+.msg-track .circularmsg-track{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin-top: 4px;
+}
+
+.brown{
+    border: 2px solid #663259;
+
+}
+.green{
+    border: 2px solid #1BC5BD;
+
+}
+.red{
+    border: 2px solid #F64E60;
+
+}
+.blue{
+    border: 2px solid #3699FF;
+}
+
+.msg-track .vertical-track{
+    min-height: 30px;
+    height: 100% !important;
+    width: 2px;
+    background-color: rgb(212, 212, 212);
+    border-radius: 2px;
+    flex: 1;
+
+}
+
+.amount-msg{
+ color: #8950FC;
+}

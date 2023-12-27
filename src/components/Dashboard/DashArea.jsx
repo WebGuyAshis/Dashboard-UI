@@ -7,6 +7,7 @@ import Sunheader from './Sunheader';
 import NewArrival from './NewArrival';
 import Stats from './Stats';
 import Widgets from './Widgets';
+import Recent from './Recent';
 
 
 const DashArea = () => {
@@ -36,10 +37,10 @@ const DashArea = () => {
                                 </div>
                             </div>
 
-                            <div className="recent-activities">
-                                {/* recent activities */}
+                            {/* <div className="recent-activities">
                                 recent
-                            </div>
+                            </div> */}
+                            <Recent />
                         </div>
                     </div>
                     <CategoryBlocks />
@@ -47,14 +48,14 @@ const DashArea = () => {
 
 
                 <div className="sales-newArr-section">
-                    <Sales/>
-                    <NewArrival/>
+                    <Sales />
+                    <NewArrival />
                 </div>
 
 
                 <div className="stats-widgets-section">
-                    <Stats/>
-                    <Widgets/>
+                    <Stats />
+                    <Widgets />
                 </div>
 
             </div>
